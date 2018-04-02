@@ -3,16 +3,15 @@
   "private": true,
   "dependencies": {
     "ramda": "0.25.0",
-    "sanctuary": "0.14.1",
-    "sanctuary-def": "0.14.0",
+    "sanctuary": "sanctuary-js/sanctuary#58017b263cc9ee4d6bc00a8d564012ee259a89ce",
+    "sanctuary-def": "0.15.0",
     "sanctuary-logo": "1.1.0",
-    "sanctuary-type-classes": "7.1.1",
+    "sanctuary-type-classes": "8.1.1",
     "sanctuary-type-identifiers": "2.0.1"
   },
   "devDependencies": {
-    "envvar": "1.1.x",
     "eslint": "4.9.x",
     "marked": "0.3.9",
-    "sanctuary-style": "1.0.x"
+    "sanctuary-style": "1.1.x"
   }
 }

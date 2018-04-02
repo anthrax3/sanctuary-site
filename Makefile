@@ -38,7 +38,7 @@ clean:
 
 .PHONY: lint
 lint:
-	$(ESLINT) --config node_modules/sanctuary-style/eslint-es6.json -- scripts/generate
+	$(ESLINT) --config eslint/es6.js -- scripts/generate
 	$(ESLINT) -- behaviour.js adt/List.js adt/Sum.js
 	make clean
 	make
